@@ -31,7 +31,7 @@ class RegTiemposService {
         "CodigoGrupo": codigoGrupo,
         "EstacionID": EstacionServices.selectedEstacion.id
       }));
-      print(content);
+      print(response.body);
       print(response.statusCode);
       final greenSnackbar = SnackBar(
         duration: Duration(seconds: 3),
